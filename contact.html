@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Samuel Adebayo">
+    <meta name="description" content="Contact of The Little Tacos Shop">
+    <title>Contact - LTS</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="js/main.js" defer>
+
+    </script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">Little Taco Shop</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li><a href="/">Home</a> </li>
+               <li><a href="/#Menu">Menu</a></li>
+                <li><a href="hours.html">Hours</a></li>
+                <li><a href="about.html">About LTS</a></li>
+              
+            </ul>
+        </nav>
+        </header>
+
+        <section class="hero">
+            <figure>
+            <img src="tacos_close_up_400x260.png" alt="The little Tacos Shop" title="Tacos ready to eat!" width="1000" height="649">
+            <figcaption class="offscreen">Little Tacos Shop Tacos</figcaption>
+        </figure>
+        </section>
+            <main class="main">
+                <article class="main__article contact">
+        <h2 class="contact__h2">Our Contact Form</h2>
+        <form action="https://httpbin.org/get" method="get" class="contact__form">
+        <fieldset class="contact__fieldset">
+           <legend class="offscreen">Send Us a Message</legend>
+           <br>
+           <p class="contact__p">
+           <label for="name" class="contact__label">Name:</label>
+           <input class="contact__input" type="text" id="name" placeholder="your name" required>
+        </p>
+        <br>
+        <p class="contact__p">
+           <label for="email" class="contact__label">Email:</label>
+           <input class="contact__input" type="email" id="email" required>
+        </p>
+        <br>
+          <p class="contact__p">
+           <label for="message" class="contact__label">Your Message:</label>
+           <br>
+           <textarea class="contact__textarea" name="message" id="message" placeholder="Type your message here!" cols="30" rows="10"></textarea>
+        </p>
+        </fieldset>
+    </form>
+    <br>
+    <button type="submit" class="contact__button">Submit</button>
+    <button type="submit" class="contact__button">Reset</button>
+    <br>
+    <article class="main__article">
+    <h2>Our Location</h2>
+   <address>200 University Road off University of Nigeria by <br>filling station Nsukka Enugu State, Nigeria.</address>
+   <br>
+   <br>
+   Phone: <a href="telephone">+2348169433973</a>
+</article>
+    <br>
+
+    </main>
+<br>
+    <p><a href="/">Back to Top</a></p>
+</article>
+</main>
+    <hr>
+    <footer class="footer">
+        <p>
+        <span class="nowrap">copywrite &copy; <time id="year"></time></span>The <span class="nowrap">Little Taco Shop</span>
+    </p>
+    </footer>
+</body>
+</html>
